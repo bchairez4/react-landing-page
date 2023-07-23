@@ -1,2 +1,5 @@
 # react-web-app
-Creating a web application using the React library.
+
+Created by Brian Chairez
+
+This project utilizes React which is an open source front-end JavaScript library to build a web application.
