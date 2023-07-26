@@ -1,5 +1,5 @@
 function Button({ value, onButtonClick }) {
-    return(
+    return (
         <>
             <button onClick={onButtonClick}>
                 {value}
