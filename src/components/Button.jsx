@@ -3,7 +3,7 @@ function Button({ value, onButtonClick }) {
         <button onClick={onButtonClick}>
             {value}
         </button>
-    )
+    );
 }
 
-export default Button
+export default Button;
