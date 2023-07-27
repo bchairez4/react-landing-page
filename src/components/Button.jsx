@@ -1,8 +1,8 @@
 function Button({ value, onButtonClick }) {
     return (
-            <button onClick={onButtonClick}>
-                {value}
-            </button>
+        <button onClick={onButtonClick}>
+            {value}
+        </button>
     )
 }
 
