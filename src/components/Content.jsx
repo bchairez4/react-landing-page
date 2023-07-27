@@ -1,8 +1,8 @@
 function Content({ content }) {
     return (
-            <p>
-                {content}
-            </p>
+        <p>
+            {content}
+        </p>
     )
 }
 
