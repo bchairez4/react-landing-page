@@ -1,7 +1,7 @@
-function Picture({ img_src }) {
+function Picture({ image_src }) {
     return (
-        <img src={img_src} alt="image" />
-    )
+        <img src={image_src} alt="image" />
+    );
 }
 
-export default Picture
+export default Picture;
