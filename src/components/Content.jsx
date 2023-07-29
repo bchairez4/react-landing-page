@@ -15,7 +15,7 @@ function Content({ posts }) {
 
     return (
         <div>
-            <Tweet profile_image_src={"./images/default_profilepic.png"} />
+            <Tweet profile_image_src={"./src/assets/images/default_profilepic.png"} />
             <br />
             {feed}
         </div>       
