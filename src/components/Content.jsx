@@ -1,4 +1,5 @@
 import Post from "./Post";
+import Tweet from "./Tweet";
 
 function Content({ posts }) {
     const feed = posts.map((post) => {
@@ -14,6 +15,8 @@ function Content({ posts }) {
 
     return (
         <div>
+            <Tweet profile_image_src={"./images/default_profilepic.png"} />
+            <br />
             {feed}
         </div>       
     );
