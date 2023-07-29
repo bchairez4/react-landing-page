@@ -7,7 +7,7 @@ function Post({ profile_image_src, handle, message, uploading_image, image_src }
         return(
             <>
                 <Picture image_src={profile_image_src} />
-                <Name name={handle} />
+                <Name name={"@" + handle} />
                 <Message message={message} />
             </>
         );
@@ -16,7 +16,7 @@ function Post({ profile_image_src, handle, message, uploading_image, image_src }
     return (
         <>
             <Picture image_src={profile_image_src} />
-            <Name name={handle} />
+            <Name name={"@" + handle} />
             <Message message={message} />
             <Picture image_src={image_src} />
         </>
