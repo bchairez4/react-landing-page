@@ -11,7 +11,7 @@ function App() {
     {src: "", name: "Messages"},
     {src: "", name: "Lists"},
     {src: "", name: "Communities"},
-    {src: "", name: "Verfied"},
+    {src: "", name: "Verified"},
     {src: "", name: "Profile"},
     {src: "", name: "More"},
   ];
