@@ -11,7 +11,7 @@ function App() {
     {src: "", name: "Messages"},
     {src: "", name: "Lists"},
     {src: "", name: "Communities"},
-    {src: "", name: "Verified"},
+    {src: "", name: "Verfied"},
     {src: "", name: "Profile"},
     {src: "", name: "More"},
   ];
@@ -34,7 +34,7 @@ function App() {
   ];
 
   return (
-    <div>
+    <div className="app">
       <Sidebar links={NAVLINKS} />
       <Content posts={POSTS} />
       <Asidebar trends={TRENDS} />
