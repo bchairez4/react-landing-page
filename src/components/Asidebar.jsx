@@ -9,7 +9,7 @@ function Asidebar({ trends }) {
     });
 
     return (
-        <div>
+        <div className="asidebar">
             <Searchbar />
             {trending}
         </div>
