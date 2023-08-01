@@ -10,7 +10,7 @@ function Sidebar({ links }) {
     });
 
     return (
-        <div>
+        <div className="sidebar">
             {navbarLinks}
             <Button value={"Tweet"} />
             <Profile image_src={"./src/assets/images/default_profilepic.png"} name={"Default"} handle={"Default"} />
