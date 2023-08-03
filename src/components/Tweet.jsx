@@ -4,11 +4,13 @@ import Picture from "./Picture";
 
 function Tweet({ profile_image_src }) {
     return (
-        <>
-            <Picture image_src={profile_image_src} />
-            <InputMessage value={"What's on your mind today?"}/>
+        <div className="content-tweet">
+            <div className="profile-picture">
+                <Picture image_src={profile_image_src} />
+            </div>
+            <InputMessage value={"What's on your mind today?"} />
             <Button value={"Tweet"} />
-        </>
+        </div>
     );
 }
 
