@@ -3,8 +3,10 @@ import Picture from "./Picture";
 
 function Profile({ image_src, name, handle }) {
     return (
-        <div>
-            <Picture image_src={image_src} />
+        <div className="profile">
+            <div className="profile-picture">
+                <Picture image_src={image_src} />
+            </div>
             <Name name={name} />
             <Name name={"@" + handle} />
         </div>
