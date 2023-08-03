@@ -1,6 +1,8 @@
 function Searchbar() {
     return (
-        <input type="text" />
+        <div className="searchbar">
+            <input type="text" />
+        </div>
     );
 }
 
