@@ -1,7 +1,7 @@
 .app {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    text-align: center;
 }
 
 .sidebar {
@@ -10,12 +10,14 @@
     flex-direction: column;
 }
 
-.sidebar-links {
+.sidebar-navbar {}
+
+.sidebar-navbar-link {
     padding: 25px;
     text-decoration: none;
 }
 
-.tweet-button Button {
+.sidebar-tweet-button Button {
     cursor: pointer;
     width: 200px;
     height: 50px;
@@ -35,8 +37,12 @@
     background-color: cyan;
 }
 
+.content-feed {}
+
 .content-post {
     background-color: fuchsia;
+    border: 2px black solid;
+    margin: 20px
 }
 
 .asidebar {
@@ -44,11 +50,14 @@
     display: flex;
     flex-direction: column;
 }
-.searchbar {
+
+.asidebar-searchbar {
     padding: 24px
 }
 
-.trending {
+.asidebar-trending {}
+
+.asidebar-trending-link {
     padding: 20px;
 }
 
