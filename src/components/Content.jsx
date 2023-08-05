@@ -17,9 +17,12 @@ function Content({ posts }) {
 
     return (
         <div className="content">
-            <Tweet profile_image_src={"./src/assets/images/default_profilepic.png"} />
-            <br />
-            {feed}
+            <div className="content-tweet">
+                <Tweet profile_image_src={"./src/assets/images/default_profilepic.png"} />
+            </div>
+            <div className="content-feed">
+                {feed}
+            </div>
         </div>       
     );
 }
