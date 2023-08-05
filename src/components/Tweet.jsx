@@ -4,7 +4,7 @@ import Picture from "./Picture";
 
 function Tweet({ profile_image_src }) {
     return (
-        <div className="content-tweet">
+        <div>
             <div className="profile-picture">
                 <Picture image_src={profile_image_src} />
             </div>
