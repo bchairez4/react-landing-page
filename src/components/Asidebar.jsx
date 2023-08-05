@@ -4,7 +4,7 @@ import Searchbar from "./Searchbar";
 function Asidebar({ trends }) {
     const trending = trends.map((trend) => {
         return (
-            <div className="trending">
+            <div className="asidebar-trending-link">
                 <Link link_src={trend.src} link_name={trend.name} />
             </div>
         );
@@ -12,8 +12,12 @@ function Asidebar({ trends }) {
 
     return (
         <div className="asidebar">
-            <Searchbar />
-            {trending}
+            <div className="asidebar-searchbar">
+                <Searchbar />
+            </div>
+            <div className="asidebar-trending">
+                {trending}
+            </div>
         </div>
     );
 }
