@@ -5,7 +5,7 @@ import Profile from "./Profile";
 function Sidebar({ links }) {
     const navbarLinks = links.map((link) => {
         return (
-            <div className="sidebar-links">
+            <div className="sidebar-navbar-link">
                 <Link link_src={link.src} link_name={link.name}/>
             </div>
         );
@@ -13,8 +13,10 @@ function Sidebar({ links }) {
 
     return (
         <div className="sidebar">
-            {navbarLinks}
-            <div className="tweet-button">
+            <div className="sidebar-navbar">
+                {navbarLinks}
+            </div>
+            <div className="sidebar-tweet-button">
                 <Button value={"Tweet"} />
             </div>
             <Profile image_src={"./src/assets/images/default_profilepic.png"} name={"Default"} handle={"Default"} />
