@@ -10,10 +10,17 @@
     flex-direction: column;
 }
 
-.sidebar-navbar {}
+.sidebar-navbar {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
 
 .sidebar-navbar-link {
-    padding: 25px;
+    height: 25px;
+    width: 100px;
+    border: 2px black solid;
+    padding: 35px;
     text-decoration: none;
 }
 
@@ -63,6 +70,8 @@
 
 .profile-picture {
     scale: 0.10;
+    width: 20px;
+    height: 20px;
     margin: none;
     padding: none;
 }
