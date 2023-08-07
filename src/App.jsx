@@ -5,6 +5,8 @@ import "./App.css";
 
 function App() {
   // Simulating grabbing data from a database
+  const LOGO = {image_src: "./src/assets/images/logo.png"}
+
   const NAVLINKS = [
     {src: "", name: "Home"},
     {src: "", name: "Explore"},
@@ -36,7 +38,7 @@ function App() {
 
   return (
     <div className="app">
-      <Sidebar links={NAVLINKS} />
+      <Sidebar logo={LOGO} links={NAVLINKS} />
       <Content posts={POSTS} />
       <Asidebar trends={TRENDS} />
     </div>
