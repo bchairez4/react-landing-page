@@ -4,7 +4,7 @@ import Tweet from "./Tweet";
 function Content({ posts }) {
     const feed = posts.map((post) => {
         return (
-            <div className="content-post">
+            <div className="content-feed-post">
                 <Post
                     profile_image_src={post.profile_image_src} 
                     handle={post.handle} 
