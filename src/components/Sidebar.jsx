@@ -1,8 +1,9 @@
 import Button from "./Button";
 import Link from "./Link";
+import Picture from "./Picture";
 import Profile from "./Profile";
 
-function Sidebar({ links }) {
+function Sidebar({ logo, links }) {
     const navbarLinks = links.map((link) => {
         return (
             <div className="sidebar-navbar-link">
