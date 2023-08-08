@@ -56,6 +56,10 @@
     background-color: cyan;
 }
 
+.content-tweet Button {
+    cursor: pointer;
+}
+
 .content-feed {
     display: flex;
     flex-direction: column;
@@ -89,15 +93,16 @@
 }
 
 .profile-picture {
-    scale: 0.10;
-    width: 20px;
-    height: 20px;
+    scale: 0.05;
+    width: auto;
+    height: auto;
+    max-width: 64px;
+    max-height: 64px;
     margin: none;
     padding: none;
 }
 
 .uploaded-picture {
-    scale: 0.60;
-    width: 600px;
-    height: 425px;
+    scale: 0.5;
+    translate: -157px -200px;
 }
