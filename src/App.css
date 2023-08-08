@@ -68,7 +68,9 @@
 .content-feed-post {
     background-color: fuchsia;
     border: 2px black solid;
-    margin: 20px
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .asidebar {
