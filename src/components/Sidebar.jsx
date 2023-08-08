@@ -14,6 +14,7 @@ function Sidebar({ logo, links }) {
 
     return (
         <div className="sidebar">
+            <Picture image_src={logo.image_src} />
             <div className="sidebar-navbar">
                 {navbarLinks}
             </div>
