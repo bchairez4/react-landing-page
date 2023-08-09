@@ -85,7 +85,7 @@
     border: 2px black solid;
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .asidebar {
@@ -109,12 +109,16 @@
 }
 
 .asidebar-trending {
-    border-collapse: collapse;
+    display: flex;
+    flex-direction: column;
 }
 
 .asidebar-trending-link {
     border: 2px black solid;
     padding: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 1px;
 }
 
 .asidebar-trending-link a {
