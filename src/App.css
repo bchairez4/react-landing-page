@@ -22,6 +22,9 @@
 .sidebar-navbar-link {
     height: 5px;
     padding: 25px;
+}
+
+.sidebar-navbar-link a {
     text-decoration: none;
 }
 
@@ -29,7 +32,9 @@
     padding: 20px;
 }
 
-.sidebar-tweet-button Button {
+.sidebar-tweet-button button {
+    border: none;
+    border-radius: 15px;
     cursor: pointer;
     width: 200px;
     height: 50px;
@@ -39,8 +44,8 @@
 .profile {
     display: flex;
     flex-direction: row;
-    padding: 25px;
     align-self: center;
+    padding: 25px;
 }
 
 .content {
@@ -56,8 +61,18 @@
     background-color: cyan;
 }
 
-.content-tweet Button {
+.content-tweet input {
+    width: calc(100% - 300px);
+    border: none;
+    background-color: aqua;
+}
+
+.content-tweet button {
     cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    width: 70px;
+    height: 25px;
 }
 
 .content-feed {
@@ -82,7 +97,15 @@
 }
 
 .asidebar-searchbar {
-    padding: 24px
+    padding: 24px;
+}
+
+.asidebar-searchbar input {
+    border: none;
+    border-radius: 15px;
+    width: calc(100% - 50px);
+    height: 30px;
+
 }
 
 .asidebar-trending {
@@ -92,6 +115,10 @@
 .asidebar-trending-link {
     border: 2px black solid;
     padding: 20px;
+}
+
+.asidebar-trending-link a {
+    text-decoration: none;
 }
 
 .profile-picture {
