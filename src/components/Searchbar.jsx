@@ -1,6 +1,6 @@
-function Searchbar() {
+function Searchbar({ value }) {
     return (
-        <input type="text" />
+        <input type="text" placeholder={value} />
     );
 }
 
