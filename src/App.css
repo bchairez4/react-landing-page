@@ -12,6 +12,12 @@
     width: 400px;
 }
 
+.sidebar img {
+    width: 100px;
+    height: 100px;
+    align-self: center;
+}
+
 .sidebar-navbar {
     display: flex;
     flex-direction: column;
