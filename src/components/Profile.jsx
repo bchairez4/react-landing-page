@@ -3,7 +3,7 @@ import Picture from "./Picture";
 
 function Profile({ image_src, name, handle }) {
     return (
-        <div className="profile">
+        <div className="sidebar-profile">
             <div className="profile-picture">
                 <Picture image_src={image_src} />
             </div>
