@@ -32,6 +32,7 @@
 
 .sidebar-navbar-link a {
     text-decoration: none;
+    color: inherit;
 }
 
 .sidebar-tweet-button {
@@ -73,6 +74,10 @@
     background-color: aqua;
 }
 
+.content-tweet input:focus {
+    outline: none;
+}
+
 .content-tweet button {
     cursor: pointer;
     border: none;
@@ -111,7 +116,11 @@
     border-radius: 15px;
     width: calc(100% - 50px);
     height: 30px;
+}
 
+.asidebar-searchbar input:focus {
+    outline-color: hsl(240, 100%, 50%);
+    outline-offset: 2px;
 }
 
 .asidebar-trending {
@@ -129,6 +138,7 @@
 
 .asidebar-trending-link a {
     text-decoration: none;
+    color: inherit;
 }
 
 .profile-picture {
