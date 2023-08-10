@@ -12,6 +12,7 @@
 
 .sidebar {
     background-color: aquamarine;
+    border-right: 1px black solid;
     display: flex;
     flex-direction: column;
     left: 0;
@@ -70,6 +71,8 @@
 }
 
 .content-tweet {
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
     display: block;
     height: 125px;
     background-color: cyan;
@@ -109,6 +112,7 @@
 
 .asidebar {
     background-color: coral;
+    border-left: 1px black solid;
     display: flex;
     flex-direction: column;
     right: 0;
@@ -168,5 +172,5 @@
 .home {
     font-size: x-large;
     align-self: flex-start;
-    margin-left: 10px;
+    margin: 10px;
 }
