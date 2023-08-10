@@ -47,7 +47,7 @@
     align-self: center;
 }
 
-.profile {
+.sidebar-profile {
     display: flex;
     flex-direction: row;
     align-self: center;
