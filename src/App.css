@@ -164,3 +164,9 @@
     scale: 0.5;
     translate: -157px -200px;
 }
+
+.home {
+    font-size: x-large;
+    align-self: flex-start;
+    margin-left: 10px;
+}
