@@ -148,13 +148,13 @@
     margin-left: 5px;
     margin-right: 5px;
 }
-.asidebar-trending-link:first-child {
+.asidebar-trending-link:first-of-type {
     border-top: 2px black solid;
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
 }
 
-.asidebar-trending-link:last-child {
+.asidebar-trending-link:last-of-type {
     border-bottom: 2px black solid;
     border-bottom-left-radius: 18px;
     border-bottom-right-radius: 18px;
@@ -180,7 +180,13 @@
     translate: -157px -200px;
 }
 
-.home {
+.home-label {
+    font-size: x-large;
+    align-self: flex-start;
+    margin: 10px;
+}
+
+.trends-label {
     font-size: x-large;
     align-self: flex-start;
     margin: 10px;
