@@ -16,7 +16,7 @@ function Asidebar({ trends }) {
                 <Searchbar value={"Search"}/>
             </div>
             <div className="asidebar-trending">
-                Trends for you
+                <span className="trends-label">Trends for you</span>
                 {trending}
             </div>
         </div>
