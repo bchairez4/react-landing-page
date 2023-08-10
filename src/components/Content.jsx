@@ -17,7 +17,7 @@ function Content({ posts }) {
 
     return (
         <div className="content">
-            <span className="home">Home</span>
+            <span className="home-label">Home</span>
             <div className="content-tweet">
                 <Tweet profile_image_src={"./src/assets/images/default_profilepic.png"} />
             </div>
