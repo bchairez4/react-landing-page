@@ -1,7 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .app {
     display: flex;
     flex-direction: row;
     text-align: center;
+    font-family: sans-serif;
 }
 
 .sidebar {
@@ -23,6 +29,7 @@
     flex-direction: column;
     align-self: center;
     width: 300px;
+    font-weight: bold;
 }
 
 .sidebar-navbar-link {
@@ -72,6 +79,7 @@
     width: calc(100% - 300px);
     border: none;
     background-color: aqua;
+    font-size: larger;
 }
 
 .content-tweet input:focus {
@@ -126,6 +134,7 @@
 .asidebar-trending {
     display: flex;
     flex-direction: column;
+    font-weight: bolder;
 }
 
 .asidebar-trending-link {
