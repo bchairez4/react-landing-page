@@ -40,6 +40,7 @@
 }
 
 .sidebar-navbar-link a {
+    cursor: pointer;
     text-decoration: none;
     color: inherit;
 }
@@ -164,6 +165,7 @@
 }
 
 .asidebar-trending-link a {
+    cursor: pointer;
     text-decoration: none;
     color: inherit;
 }
