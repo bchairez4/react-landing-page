@@ -139,10 +139,12 @@
 }
 
 .asidebar-trending {
+    width: 100%;
     display: flex;
     flex-direction: column;
     font-weight: bolder;
     align-self: center;
+    align-items: flex-start;
 }
 
 .asidebar-trending-link {
