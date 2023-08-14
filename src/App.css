@@ -139,15 +139,15 @@
 }
 
 .asidebar-trending {
-    width: 100%;
     display: flex;
     flex-direction: column;
     font-weight: bolder;
     align-self: center;
-    align-items: flex-start;
+    padding-right: 50px;
 }
 
 .asidebar-trending-link {
+    width: 100%;
     border-left: 2px black solid;
     border-right: 2px black solid;
     padding: 20px;
