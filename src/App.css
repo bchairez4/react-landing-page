@@ -23,6 +23,7 @@
     width: 100px;
     height: 100px;
     align-self: center;
+    padding-top: 10px;
 }
 
 .sidebar-navbar {
@@ -50,6 +51,7 @@
 .sidebar-tweet-button {
     align-self: flex-end;
     padding: 10px;
+    padding-top: 15px;
     padding-right: 28px;
 }
 
