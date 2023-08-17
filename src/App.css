@@ -72,6 +72,24 @@
     padding: 25px;
 }
 
+.sidebar-profile img {
+    scale: 0.9;
+    width: auto;
+    height: auto;
+    max-width: 64px;
+    max-height: 64px;
+}
+
+.sidebar-profile > div {
+    position: absolute;
+    left: 240px;
+    padding-top: 10px;
+}
+
+.sidebar-profile div:last-child {
+    margin-top: 20px;
+}
+
 .content {
     display: flex;
     flex-direction: column;
