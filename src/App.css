@@ -120,9 +120,13 @@
 .content-tweet button {
     cursor: pointer;
     border: none;
-    border-radius: 12px;
-    width: 70px;
-    height: 25px;
+    border-radius: 35px;
+    background-color: red;
+    color: darkblue;
+    font-size: medium;
+    font-weight: bold;
+    width: 65px;
+    height: 35px;
 }
 
 .content-feed {
@@ -215,6 +219,7 @@
 
 .home-label {
     font-size: x-large;
+    font-weight: bold;
     align-self: flex-start;
     margin: 10px;
 }
