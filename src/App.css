@@ -152,14 +152,20 @@
 }
 
 .asidebar-searchbar {
-    padding: 24px;
+    padding: 5px 24px 24px 24px;
 }
 
 .asidebar-searchbar input {
     border: none;
-    border-radius: 15px;
+    border-radius: 25px;
     width: calc(100% - 50px);
     height: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.asidebar-searchbar input::placeholder {
+    padding-left: 15px;
 }
 
 .asidebar-searchbar input:focus {
