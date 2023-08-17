@@ -37,11 +37,12 @@
 
 .sidebar-navbar-link {
     height: 5px;
-    padding: 25px;
+    padding: 20px;
 }
 
 .sidebar-navbar-link a {
     cursor: pointer;
+    font-size: larger;
     text-decoration: none;
     color: inherit;
 }
