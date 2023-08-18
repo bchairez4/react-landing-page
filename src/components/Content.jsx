@@ -7,6 +7,7 @@ function Content({ posts }) {
             <div className="content-feed-post">
                 <Post
                     profile_image_src={post.profile_image_src} 
+                    name={post.name}
                     handle={post.handle} 
                     message={post.message} 
                     uploading_image={post.uploading_image} 
