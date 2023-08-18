@@ -57,7 +57,7 @@
 
 .sidebar-tweet-button button {
     border: none;
-    border-radius: 15px;
+    border-radius: 25px;
     background-color: red;
     color: darkblue;
     cursor: pointer;
@@ -145,6 +145,17 @@
     margin-bottom: 5px;
 }
 
+.content-feed-post img:first-child {
+    border-radius: 450px;
+}
+
+.content-feed-post img:nth-child(5) {
+    width: auto;
+    max-width: calc(100% - 20px);
+    height: auto;
+    max-height: 720px;
+}
+
 .asidebar {
     background-color: coral;
     border-left: 1px black solid;
@@ -219,11 +230,6 @@
     max-height: 64px;
     margin: none;
     padding: none;
-}
-
-.uploaded-picture {
-    scale: 0.5;
-    translate: -157px -200px;
 }
 
 .home-label {
