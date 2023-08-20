@@ -9,8 +9,7 @@ function Post({ profile_image_src, name, handle, message, uploading_image, image
                 <div className="profile-picture">
                     <Picture image_src={profile_image_src} />
                 </div>
-                <Name name={name} />
-                <Name name={"@" + handle} />
+                <Name name={name + " @" + handle} />
                 <Message message={message} />
             </div>
         );
@@ -21,8 +20,7 @@ function Post({ profile_image_src, name, handle, message, uploading_image, image
             <div className="profile-picture">
                 <Picture image_src={profile_image_src} />
             </div>
-            <Name name={name} />
-            <Name name={"@" + handle} />
+            <Name name={name + " @" + handle} />
             <Message message={message} />
             <Picture image_src={image_src} />
         </div>
