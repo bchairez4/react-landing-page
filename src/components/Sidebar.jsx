@@ -6,9 +6,9 @@ import Profile from "./Profile";
 function Sidebar({ logo, links }) {
     const navbarLinks = links.map((link) => {
         return (
-            <div className="sidebar-navbar-link">
+            <li className="sidebar-navbar-link">
                 <Link link_src={link.src} link_name={link.name}/>
-            </div>
+            </li>
         );
     });
 
@@ -16,7 +16,7 @@ function Sidebar({ logo, links }) {
         <div className="sidebar">
             <Picture image_src={logo.image_src} />
             <div className="sidebar-navbar">
-                {navbarLinks}
+                <ul>{navbarLinks}</ul>
             </div>
             <div className="sidebar-tweet-button">
                 <Button value={"Tweet"} />
