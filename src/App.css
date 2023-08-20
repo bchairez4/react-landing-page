@@ -169,6 +169,12 @@
     max-height: 720px;
 }
 
+.content-feed-post-reactions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .asidebar {
     background-color: coral;
     border-left: 1px black solid;
