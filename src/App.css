@@ -164,7 +164,15 @@
 }
 
 .content-feed-post img:first-child {
+    align-content: flex-start;
     border-radius: 450px;
+    display: inherit;
+    width: auto;
+    height: auto;
+    max-width: 70px;
+    max-height: 70px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .content-feed-post div {
@@ -247,16 +255,6 @@
     cursor: pointer;
     text-decoration: none;
     color: inherit;
-}
-
-.profile-picture {
-    scale: 0.05;
-    width: auto;
-    height: auto;
-    max-width: 64px;
-    max-height: 64px;
-    margin: none;
-    padding: none;
 }
 
 .home-label {
