@@ -183,8 +183,8 @@
 .content-feed-post p {
     color: pink;
     text-align: left;
-    padding-left: 70px;
-    padding-bottom: 25px;
+    margin-left: 70px;
+    margin-bottom: 25px;
 }
 
 .content-feed-post img:nth-child(4) {
@@ -198,6 +198,10 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.content-feed-post-reactions label {
+    padding-right: 20px;
 }
 
 .asidebar {
