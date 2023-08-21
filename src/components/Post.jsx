@@ -7,9 +7,7 @@ function Post({ profile_image_src, name, handle, message, uploading_image, image
     if (!uploading_image) {
         return(
             <div>
-                <div className="profile-picture">
-                    <Picture image_src={profile_image_src} />
-                </div>
+                <Picture image_src={profile_image_src} />
                 <Name name={name + " @" + handle} />
                 <Message message={message} />
                 <Reactions />
@@ -19,9 +17,7 @@ function Post({ profile_image_src, name, handle, message, uploading_image, image
 
     return (
         <div>
-            <div className="profile-picture">
-                <Picture image_src={profile_image_src} />
-            </div>
+            <Picture image_src={profile_image_src} />
             <Name name={name + " @" + handle} />
             <Message message={message} />
             <Picture image_src={image_src} />
