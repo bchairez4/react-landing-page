@@ -79,6 +79,7 @@
 }
 
 .sidebar-profile img {
+    border-radius: 450px;
     scale: 0.9;
     width: auto;
     height: auto;
@@ -106,9 +107,19 @@
 .content-tweet {
     border-top: 1px black solid;
     border-bottom: 1px black solid;
-    display: block;
+    display: flex;
+    flex-direction: row;
     height: 125px;
     background-color: cyan;
+}
+
+.content-tweet img {
+    width: auto;
+    height: auto;
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 450px;
+    margin: 15px;
 }
 
 .content-tweet input {
@@ -116,6 +127,7 @@
     border: none;
     background-color: aqua;
     font-size: larger;
+    padding-top: 20px;
 }
 
 .content-tweet input:focus {
@@ -124,15 +136,17 @@
 }
 
 .content-tweet button {
-    cursor: pointer;
+    align-self: flex-end;
     border: none;
     border-radius: 35px;
     background-color: red;
+    cursor: pointer;
     color: darkblue;
     font-size: medium;
     font-weight: bold;
     width: 75px;
     height: 40px;
+    margin-bottom: 5px;
 }
 
 .content-feed {
