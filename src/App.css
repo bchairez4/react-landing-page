@@ -210,7 +210,9 @@
 }
 
 .content-feed-post-reactions label {
+    color: hsl(240, 20%, 25%);
     padding-right: 20px;
+    margin-left: 5px;
 }
 
 .asidebar {
