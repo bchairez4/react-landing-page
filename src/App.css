@@ -175,15 +175,21 @@
     margin-top: 10px;
 }
 
-.content-feed-post div {
+.content-feed-post div > div {
     color: white;
+    cursor: pointer;
+    font-weight: bold;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    left: 95px;
     padding-bottom: 10px;
 }
 
 .content-feed-post p {
     color: pink;
     text-align: left;
-    margin-left: 70px;
+    margin-left: 95px;
     margin-bottom: 25px;
 }
 
