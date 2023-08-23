@@ -8,11 +8,12 @@
     flex-direction: row;
     text-align: center;
     font-family: sans-serif;
+    color: hsl(240, 30%, 85%);
 }
 
 .sidebar {
-    background-color: aquamarine;
-    border-right: 1px black solid;
+    background-color: hsl(240, 100%, 10%);
+    border-right: 1px hsl(240, 100%, 95%) solid;
     display: flex;
     flex-direction: column;
     left: 0;
@@ -60,8 +61,8 @@
 .sidebar-tweet-button button {
     border: none;
     border-radius: 25px;
-    background-color: red;
-    color: darkblue;
+    background-color: hsl(205, 100%, 40%);
+    color: hsl(240, 100%, 95%);
     cursor: pointer;
     font-size: large;
     font-weight: bold;
@@ -100,17 +101,17 @@
 .content {
     display: flex;
     flex-direction: column;
-    background-color: pink;
+    background-color: hsl(240, 100%, 10%);
     width: calc(100% - 800px);
 }
 
 .content-tweet {
-    border-top: 1px black solid;
-    border-bottom: 1px black solid;
+    border-top: 1px hsl(240, 100%, 95%) solid;
+    border-bottom: 1px hsl(240, 100%, 95%) solid;
     display: flex;
     flex-direction: row;
     height: 125px;
-    background-color: cyan;
+    background-color: hsl(240, 100%, 10%);
     position: relative;
 }
 
@@ -127,22 +128,23 @@
     width: calc(100% - 300px);
     height: 80px;
     border: none;
-    background-color: aqua;
+    background-color: hsl(240, 100%, 10%);
     font-size: larger;
     align-self: flex-start;
 }
 
 .content-tweet input:focus {
     outline: none;
+    color: hsl(240, 30%, 85%);
 }
 
 .content-tweet button {
     align-self: flex-end;
     border: none;
     border-radius: 35px;
-    background-color: red;
+    background-color: hsl(205, 100%, 40%);
+    color: hsl(240, 100%, 95%);
     cursor: pointer;
-    color: darkblue;
     font-size: medium;
     font-weight: bold;
     width: 75px;
@@ -158,8 +160,8 @@
 }
 
 .content-feed-post {
-    background-color: fuchsia;
-    border: 1px black solid;
+    background-color: hsl(240, 100%, 10%);
+    border: 1px hsl(240, 100%, 95%) solid;
     border-bottom: none;
 }
 
@@ -176,7 +178,7 @@
 }
 
 .content-feed-post div > div {
-    color: white;
+    color: hsl(240, 100%, 95%);
     cursor: pointer;
     font-weight: bold;
     width: fit-content;
@@ -187,7 +189,7 @@
 }
 
 .content-feed-post p {
-    color: pink;
+    color: hsl(240, 100%, 95%);
     text-align: left;
     margin-left: 95px;
     margin-bottom: 25px;
@@ -211,8 +213,8 @@
 }
 
 .asidebar {
-    background-color: coral;
-    border-left: 1px black solid;
+    background-color: hsl(240, 100%, 10%);
+    border-left: 1px hsl(240, 100%, 95%) solid;
     display: flex;
     flex-direction: column;
     right: 0;
@@ -244,7 +246,7 @@
 .asidebar-trending {
     display: flex;
     flex-direction: column;
-    border: 2px black solid;
+    border: 2px hsl(240, 100%, 95%) solid;
     border-radius: 18px;
     font-weight: bolder;
     align-self: center;
@@ -252,7 +254,7 @@
 }
 
 .asidebar-trending-link {
-    border-top: 1px black solid;
+    border-top: 1px hsl(240, 100%, 95%) solid;
     list-style: none;
     width: 100%;
     padding: 20px;
