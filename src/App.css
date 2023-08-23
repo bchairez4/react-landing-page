@@ -125,11 +125,12 @@
 }
 
 .content-tweet input {
+    background-color: hsl(240, 100%, 10%);
+    border: none;
+    color: hsl(240, 30%, 85%);
+    font-size: larger;
     width: calc(100% - 300px);
     height: 80px;
-    border: none;
-    background-color: hsl(240, 100%, 10%);
-    font-size: larger;
     align-self: flex-start;
 }
 
@@ -226,19 +227,25 @@
 }
 
 .asidebar-searchbar input {
+    background-color: hsl(240, 20%, 20%);
     border: none;
     border-radius: 25px;
+    color: hsl(240, 30%, 85%);
     width: 100%;
     height: 30px;
     padding-top: 3px;
+    padding-left: 15px;
+    padding-right: none;
     padding-bottom: 3px;
 }
 
 .asidebar-searchbar input::placeholder {
-    padding-left: 15px;
+    color: hsl(240, 30%, 85%);
+    margin-left: 15px;
 }
 
 .asidebar-searchbar input:focus {
+    color: hsl(240, 30%, 85%);
     outline-color: hsl(240, 100%, 50%);
     outline-offset: 2px;
 }
@@ -246,7 +253,8 @@
 .asidebar-trending {
     display: flex;
     flex-direction: column;
-    border: 2px hsl(240, 100%, 95%) solid;
+    background-color: hsl(240, 20%, 20%);
+    border: 1px hsl(240, 100%, 95%) solid;
     border-radius: 18px;
     font-weight: bolder;
     align-self: center;
