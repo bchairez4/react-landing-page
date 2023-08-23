@@ -12,7 +12,7 @@
 }
 
 .sidebar {
-    background-color: hsl(240, 100%, 10%);
+    background-color: hsl(240, 100%, 5%);
     border-right: 1px hsl(240, 100%, 95%) solid;
     display: flex;
     flex-direction: column;
@@ -21,8 +21,8 @@
 }
 
 .sidebar > img {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     align-self: center;
     padding-top: 10px;
 }
@@ -101,7 +101,7 @@
 .content {
     display: flex;
     flex-direction: column;
-    background-color: hsl(240, 100%, 10%);
+    background-color: hsl(240, 100%, 5%);
     width: calc(100% - 800px);
 }
 
@@ -111,7 +111,7 @@
     display: flex;
     flex-direction: row;
     height: 125px;
-    background-color: hsl(240, 100%, 10%);
+    background-color: hsl(240, 100%, 5%);
     position: relative;
 }
 
@@ -125,7 +125,7 @@
 }
 
 .content-tweet input {
-    background-color: hsl(240, 100%, 10%);
+    background-color: hsl(240, 100%, 5%);
     border: none;
     color: hsl(240, 30%, 85%);
     font-size: larger;
@@ -161,9 +161,8 @@
 }
 
 .content-feed-post {
-    background-color: hsl(240, 100%, 10%);
-    border: 1px hsl(240, 100%, 95%) solid;
-    border-bottom: none;
+    background-color: hsl(240, 100%, 5%);
+    border-bottom: 1px hsl(240, 100%, 95%) solid;
 }
 
 .content-feed-post img:first-child {
@@ -190,7 +189,7 @@
 }
 
 .content-feed-post p {
-    color: hsl(240, 100%, 95%);
+    color: hsl(240, 30%, 85%);
     text-align: left;
     margin-left: 95px;
     margin-bottom: 25px;
@@ -216,7 +215,7 @@
 }
 
 .asidebar {
-    background-color: hsl(240, 100%, 10%);
+    background-color: hsl(240, 100%, 5%);
     border-left: 1px hsl(240, 100%, 95%) solid;
     display: flex;
     flex-direction: column;
