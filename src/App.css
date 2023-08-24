@@ -182,7 +182,7 @@
     font-weight: bold;
     width: fit-content;
     height: fit-content;
-    transform: translateY(-30px);
+    transform: translateY(-50px);
     position: relative;
     left: 95px;
 }
@@ -190,7 +190,7 @@
 .content-feed-post p {
     color: hsl(240, 30%, 85%);
     text-align: left;
-    transform: translateY(-25px);
+    transform: translateY(-45px);
     margin-left: 95px;
     margin-bottom: 25px;
 }
@@ -200,7 +200,7 @@
     max-width: calc(100% - 20px);
     height: auto;
     max-height: 720px;
-    transform: translateY(-35px);
+    transform: translateY(-50px);
 }
 
 .content-feed-post-reactions {
