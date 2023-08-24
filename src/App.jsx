@@ -30,7 +30,7 @@ function App() {
 
   const TRENDS = [
     {src: "", name: "Maecenas Nec"},
-    {src: "", name: "Consectetur"},
+    {src: "", name: "Velit Vitae Varius"},
     {src: "", name: "Ornare Sapien"},
     {src: "", name: "Laoreet Nunc"},
     {src: "", name: "Consectetur Euismod Bibendum"}
