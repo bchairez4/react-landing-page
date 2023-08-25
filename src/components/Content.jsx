@@ -2,9 +2,9 @@ import Post from "./Post";
 import Tweet from "./Tweet";
 
 function Content({ posts }) {
-    const feed = posts.map((post) => {
+    const feed = posts.map((post, index) => {
         return (
-            <div className="content-feed-post">
+            <div key={index} className="content-feed-post">
                 <Post
                     profile_image_src={post.profile_image_src} 
                     name={post.name}
