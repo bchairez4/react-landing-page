@@ -2,9 +2,9 @@ import Link from "./Link";
 import Searchbar from "./Searchbar";
 
 function Asidebar({ trends }) {
-    const trending = trends.map((trend) => {
+    const trending = trends.map((trend, index) => {
         return (
-            <li className="asidebar-trending-link">
+            <li key={index} className="asidebar-trending-link">
                 <Link link_src={trend.src} link_name={trend.name} />
             </li>
         );
