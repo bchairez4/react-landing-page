@@ -4,9 +4,9 @@ import Picture from "./Picture";
 import Profile from "./Profile";
 
 function Sidebar({ logo, links }) {
-    const navbarLinks = links.map((link) => {
+    const navbarLinks = links.map((link, index) => {
         return (
-            <li className="sidebar-navbar-link">
+            <li key={index} className="sidebar-navbar-link">
                 <Link link_src={link.src} link_name={link.name}/>
             </li>
         );
