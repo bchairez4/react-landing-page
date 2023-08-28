@@ -73,6 +73,7 @@
 }
 
 .sidebar-profile {
+    cursor: pointer;
     display: flex;
     flex-direction: row;
     align-self: center;
@@ -279,6 +280,16 @@
     margin-left: 5px;
     margin-right: 5px;
     text-align: left;   
+}
+
+.asidebar-trending-link:hover {
+    background-color: hsl(240, 20%, 25%);
+}
+
+.asidebar-trending-link:last-child:hover {
+    background-color: hsl(240, 20%, 25%);
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
 }
 
 .asidebar-trending-link a {
