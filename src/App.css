@@ -267,7 +267,6 @@
 .asidebar-searchbar input:focus {
     color: hsl(240, 30%, 85%);
     outline-color: hsl(240, 100%, 50%);
-    outline-offset: 2px;
 }
 
 .asidebar-trending {
