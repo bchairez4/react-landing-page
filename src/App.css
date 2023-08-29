@@ -206,6 +206,8 @@
 }
 
 .content-feed-post img:nth-child(4) {
+    border: 1px hsl(240, 20%, 25%) solid;
+    border-radius: 12px;
     width: auto;
     max-width: calc(100% - 20px);
     height: auto;
