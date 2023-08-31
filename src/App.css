@@ -82,6 +82,8 @@
 }
 
 .sidebar-profile {
+    position: absolute;
+    bottom: 0;
     cursor: pointer;
     display: flex;
     flex-direction: row;
@@ -106,7 +108,7 @@
 
 .sidebar-profile > div {
     position: absolute;
-    left: 210px;
+    left: 80px;
     padding-top: 10px;
 }
 
