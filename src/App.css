@@ -208,6 +208,7 @@
 .content-feed-post p {
     color: hsl(240, 30%, 85%);
     text-align: left;
+    width: calc(100% - 200px);
     transform: translateY(-45px);
     margin-left: 95px;
     margin-bottom: 25px;
