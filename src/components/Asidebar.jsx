@@ -5,7 +5,7 @@ function Asidebar({ trends }) {
     const trending = trends.map((trend, index) => {
         return (
             <li key={index} className="asidebar-trending-link">
-                <Link link_src={trend.src} link_name={trend.name} />
+                #<Link link_src={trend.src} link_name={trend.name} />
             </li>
         );
     });
