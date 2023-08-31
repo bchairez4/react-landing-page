@@ -8,16 +8,20 @@
     flex-direction: row;
     text-align: center;
     font-family: sans-serif;
+    background-color: hsl(240, 100%, 5%);
     color: hsl(240, 30%, 85%);
+    position: relative;
 }
 
 .sidebar {
+    position: fixed;
     background-color: hsl(240, 100%, 5%);
     border-right: 1px hsl(240, 100%, 95%) solid;
     display: flex;
     flex-direction: column;
     left: 0;
     width: 400px;
+    height: 100%;
 }
 
 .sidebar > img {
@@ -110,6 +114,9 @@
 }
 
 .content {
+    position: relative;
+    top: 0;
+    left: 401px;
     display: flex;
     flex-direction: column;
     background-color: hsl(240, 100%, 5%);
@@ -236,12 +243,14 @@
 }
 
 .asidebar {
+    position: fixed;
     background-color: hsl(240, 100%, 5%);
     border-left: 1px hsl(240, 100%, 95%) solid;
     display: flex;
     flex-direction: column;
     right: 0;
     width: 400px;
+    height: 100%;
 }
 
 .asidebar-searchbar {
