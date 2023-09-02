@@ -211,16 +211,18 @@
     color: hsl(240, 30%, 85%);
     text-align: left;
     width: calc(100% - 200px);
+    height: fit-content;
     transform: translateY(-45px);
     margin-left: 95px;
     margin-bottom: 25px;
 }
 
 .content-feed-post img:nth-child(4) {
+    cursor: pointer;
     border: 1px hsl(240, 20%, 25%) solid;
     border-radius: 12px;
     width: auto;
-    max-width: calc(100% - 20px);
+    max-width: calc(100% - 40px);
     height: auto;
     max-height: 720px;
     transform: translateY(-50px);
@@ -237,6 +239,7 @@
     width: fit-content;
     height: fit-content;
     margin-top: 12px;
+    transform: translateY(20px);
 }
 
 .content-feed-post-reactions label {
@@ -244,6 +247,7 @@
     padding-right: 20px;
     margin-top: 10px;
     margin-left: 5px;
+    transform: translateY(20px);
 }
 
 .asidebar {
