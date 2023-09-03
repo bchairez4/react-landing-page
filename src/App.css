@@ -137,6 +137,7 @@
 }
 
 .content-tweet img {
+    cursor: pointer;
     scale: 0.7;
     width: auto;
     height: auto;
@@ -189,6 +190,7 @@
 .content-feed-post img:first-child {
     align-content: flex-start;
     border-radius: 450px;
+    cursor: pointer;
     display: inherit;
     width: 60px;
     height: 60px;
@@ -325,6 +327,7 @@
 }
 
 .home-label {
+    cursor: pointer;
     font-size: x-large;
     font-weight: bold;
     align-self: flex-start;
