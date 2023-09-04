@@ -206,7 +206,7 @@
     height: fit-content;
     transform: translateY(-50px);
     position: relative;
-    left: 95px;
+    left: 80px;
 }
 
 .content-feed-post p {
@@ -215,7 +215,7 @@
     width: calc(100% - 200px);
     height: fit-content;
     transform: translateY(-45px);
-    margin-left: 95px;
+    margin-left: 80px;
     margin-bottom: 25px;
 }
 
