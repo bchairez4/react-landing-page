@@ -1,4 +1,4 @@
-# react-web-app
+# react-landing-page
 
 Created by Brian Chairez 
 
